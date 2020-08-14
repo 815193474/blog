@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#list img,#list .bg{
+    opacity: .7 !important;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+#list img:hover,#list .bg:hover{
+    opacity: 1 !important;
+}
+#navBar .navbar-nav>li>a:hover{
+    background-color: #00b7ee;
+    color: white;
+}
+#navBar .navbar-nav>li>a{
+    color: #666666;
+}
+
+#head .navbar-inverse{
+    border-color: white;
+}
+#head .navbar-collapse{
+    padding: 0;
+    border-radius: 10px;
+}
+#head  .navbar-nav{
+    margin: 0;
+}
+#head  .navbar-header button{
+    margin: 0 auto;
+}
+#op_head{
+    border-radius: 15px;
+}
+
+#lc:hover{
+
+    background-color: #00b7ee;
+    color: white !important;
+    border-radius: 5px;
+    text-decoration: none;
+}
